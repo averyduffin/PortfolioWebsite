@@ -8,8 +8,8 @@ body {
     width: 100%;
     height: 100%;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #fff;
-    background-color: #FFEED1;
+    color: #0000;
+    background-color: #FFF;
 }
 
 html {
@@ -45,7 +45,7 @@ p {
 }
 
 a {
-    color: #42dca3;
+    /*color: #42dca3;*/
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -54,7 +54,24 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #1d9b6c;
+    /*color: #1d9b6c;*/
+}
+.row-padding{
+	padding: 0 25px 0 25px;
+}
+.linked-icon{
+	border: 1px solid #FFF;
+	padding: 4px;
+	font-size: 1.7em;
+}
+.panel-padding{
+	padding: 0 25px 0 25px;
+}
+.panel-icons{
+	font-size: 5em;
+}
+.navbar-nav>li>a.non-icon{
+	padding-top: 31px;
 }
 
 .light {
@@ -71,7 +88,8 @@ a:focus {
 
 .navbar-custom .navbar-brand {
     font-weight: 700;
-	font-size: 2em;
+	font-size: 2.5em;
+	padding: 22px 15px;
 }
 
 .navbar-custom .navbar-brand:focus {
@@ -127,7 +145,7 @@ a:focus {
 }
 @media(min-width:768px) {
     .navbar-custom {
-        padding: 20px 0;
+        padding: 8px 0;
         border-bottom: 0;
         letter-spacing: 1px;
         background: 0 0;
@@ -152,10 +170,10 @@ a:focus {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: #fff;
+    color: rgb(84, 83, 83);
     /*background: url(../img/gradient5.png) no-repeat bottom center scroll, url(../img/3.jpg) no-repeat bottom center scroll;*/
 	/*background: url(../img/7.jpg) no-repeat bottom center scroll;*/
-    background-color: #18bc9c;
+    background-color: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -164,7 +182,8 @@ a:focus {
 
 .intro .intro-body {
     display: table-cell;
-    vertical-align: middle;
+	padding-top:120px;
+    /*vertical-align: middle;*/
 }
 
 .intro .intro-body .brand-heading {
