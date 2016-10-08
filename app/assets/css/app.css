@@ -417,7 +417,7 @@ width:100%;
 /* Set the fixed height of the footer here */
       #push,
       #footer {
-		position:absolute;
+		/*position:absolute;*/
 		bottom:0px;
 		left: 0px;
 		width: 100%;
